@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main card -->
+    <style name="Card">
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+    </style>
+
+    <style name="CardContentArea">
+        <item name="android:paddingBottom">@dimen/card_padding</item>
+    </style>
+
+    <style name="CardActionArea">
+        <item name="android:background">@color/card_action_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/card_action_margin</item>
+    </style>
+
+    <style name="CardElement">
+        <item name="android:paddingLeft">@dimen/card_padding</item>
+        <item name="android:paddingRight">@dimen/card_padding</item>
+    </style>
+
+    <!-- Content of main card -->
+    <style name="CardTitleBase" parent="@style/CardElement">
+        <item name="android:paddingTop">@dimen/card_padding</item>
+        <item name="android:textSize">@dimen/card_content_title</item>
+    </style>
+
+    <style name="CardTitle" parent="@style/CardTitleBase">
+    </style>
+
+    <style name="CardContentBase" parent="@style/CardElement">
+        <item name="android:paddingTop">@dimen/card_padding</item>
+        <item name="android:textSize">@dimen/card_content_text</item>
+        <item name="android:textColor">@color/card_content_textcolor</item>
+    </style>
+
+    <style name="CardContent" parent="@style/CardContentBase">
+    </style>
+
+
+</resources>

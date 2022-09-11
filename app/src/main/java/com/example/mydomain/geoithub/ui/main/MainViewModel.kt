@@ -1,7 +1,7 @@
 package com.example.mydomain.geoithub.ui.main
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import android.content.Context
 import android.util.Log
 import com.android.volley.Request

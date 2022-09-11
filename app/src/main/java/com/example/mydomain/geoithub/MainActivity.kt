@@ -1,6 +1,6 @@
 package com.example.mydomain.geoithub
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mydomain.geoithub.ui.main.MainFragment
 
